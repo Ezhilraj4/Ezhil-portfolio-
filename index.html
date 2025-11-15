@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <a href="#home" class="nav-link active" data-page="home">Home</a>
+        <a href="#about" class="nav-link" data-page="about">About</a>
+        <a href="#portfolio" class="nav-link" data-page="portfolio">Portfolio</a>
+        <a href="#contact" class="nav-link" data-page="contact">Contact</a>
+    </nav>
+
+    <main>
+        <section id="home" class="page active">
+            <h1>Hello, I'm [Your Name]</h1>
+            <p>I'm a <span id="typing-effect"></span></p>
+        </section>
+
+        <section id="about" class="page">
+            <h2>About Me</h2>
+            <p>Welcome to my digital space! I am a passionate [Your Profession/Field] based in [Your Location]. With over [X] years of experience, I specialize in [Your Key Skill 1], [Your Key Skill 2], and [Your Key Skill 3].</p>
+            <p>My journey in [Your Field] began with a fascination for [Something you're passionate about]. Today, I thrive on solving complex problems and creating beautiful, efficient solutions. When I'm not coding/designing/working, you can find me [Your Hobby].</p>
+        </section>
+
+        <section id="portfolio" class="page">
+            <h2>My Work</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    [attachment_0](attachment)
+                    <h3>Project Title 1</h3>
+                    <p>A brief description of your project. What tech did you use?</p>
+                </div>
+                <div class="portfolio-item">
+                    
+                    <h3>Project Title 2</h3>
+                    <p>A brief description of your project. What was its purpose?</p>
+                </div>
+                <div class="portfolio-item">
+                    [attachment_1](attachment)
+                    <h3>Project Title 3</h3>
+                    <p>A brief description of your project. What did you learn?</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="page">
+            <h2>Get In Touch</h2>
+            <p>I'm always open to discussing new projects or opportunities. Feel free to send me a message!</p>
+            <form class="contact-form">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
